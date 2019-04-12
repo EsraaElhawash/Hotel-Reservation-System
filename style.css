@@ -1,0 +1,60 @@
+body {
+  background-image: url("image.jpg");
+  background-repeat: no-repeat;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
+.clock{
+	width: 100%;
+	margin: 5px 0;
+	text-align: center;
+	color: black;
+}
+
+.header {
+  padding: 100x;
+  text-align: center;
+}
+.body{
+	text-align: center;
+	color: purple;
+
+}
+
+.login {
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: purple;
+  border: none;
+  border-radius: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
